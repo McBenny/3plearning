@@ -1,0 +1,17 @@
+Technical skills review for position of Senior Web Developer at 3P Learning
+
+Application
+
+Create a login application with username and password fields and allows for new Registration.
+  - have a fake service to implement authentication/authorisation
+  - use local storage to store registration data
+
+Technical Requirements - 
+
+- Must use Angular 1.5 and above.
+- PostCSS, FlexBox or SASS CSS frameworks (no bootstrap)
+- cross browser support (latest browsers with at least 80% global audience). Refer to http://caniuse.com/#feat=flexbox
+- Bring Your Own Device (any device support)
+- build folder should be minified
+
+We are going to judge mostly on the presentation layer, structure of the code and tools used to finish this task.

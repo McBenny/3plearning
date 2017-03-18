@@ -1,0 +1,19 @@
+<div class="login">
+    <h1 class="title title--1">Please log-in</h1>
+    <p>The protected page can only be accessed through identification.</p>
+    <form class="form form--login" data-ng-submit="checkCredentials()">
+        <fieldset class="form__group">
+            <p class="message message--error" data-ng-show="error">{{error}}</p>
+            <div class="form__line">
+                <label class="form__label" for="email">Login/e-mail</label> <input type="email" name="email" id="email" class="form__input form__input--email" data-ng-model="email" /><br />
+            </div>
+            <div class="form__line">
+                <label class="form__label" for="password">Password</label> <input type="password" name="password" id="password" class="form__input form__input--password" data-ng-model="password" />
+            </div>
+            <div class="form__line">
+                <label class="form__label" for="submit"></label> <button type="submit" id="submit" class="form__input form__btn form__btn--submit">Log-in</button><br />
+            </div>
+            <p class="message message--legend"><a href="#!/create">Create an account</a></p>
+        </fieldset>
+    </form>
+</div>

@@ -1,0 +1,119 @@
+/*
+                                                                                  
+                                                                                  
+       SSSSSSSSSSSSSSS         CCCCCCCCCCCCC   SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS 
+     SS:::::::::::::::S     CCC::::::::::::C SS:::::::::::::::S SS:::::::::::::::S
+    S:::::SSSSSS::::::S   CC:::::::::::::::CS:::::SSSSSS::::::SS:::::SSSSSS::::::S
+    S:::::S     SSSSSSS  C:::::CCCCCCCC::::CS:::::S     SSSSSSSS:::::S     SSSSSSS
+    S:::::S             C:::::C       CCCCCCS:::::S            S:::::S            
+    S:::::S            C:::::C              S:::::S            S:::::S            
+     S::::SSSS         C:::::C               S::::SSSS          S::::SSSS         
+      SS::::::SSSSS    C:::::C                SS::::::SSSSS      SS::::::SSSSS    
+        SSS::::::::SS  C:::::C                  SSS::::::::SS      SSS::::::::SS  
+           SSSSSS::::S C:::::C                     SSSSSS::::S        SSSSSS::::S 
+                S:::::SC:::::C                          S:::::S            S:::::S
+                S:::::S C:::::C       CCCCCC            S:::::S            S:::::S
+    SSSSSSS     S:::::S  C:::::CCCCCCCC::::CSSSSSSS     S:::::SSSSSSSS     S:::::S
+    S::::::SSSSSS:::::S   CC:::::::::::::::CS::::::SSSSSS:::::SS::::::SSSSSS:::::S
+    S:::::::::::::::SS      CCC::::::::::::CS:::::::::::::::SS S:::::::::::::::SS 
+     SSSSSSSSSSSSSSS           CCCCCCCCCCCCC SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS   
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+*/
+body {
+    background: #fff;
+    font-family: arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 970px;
+    padding: 1rem;
+}
+
+
+
+/*
+    88      dP"Yb   dP""b8 88 88b 88 
+    88     dP   Yb dP   `" 88 88Yb88 
+    88  .o Yb   dP Yb  "88 88 88 Y88 
+    88ood8  YbodP   YboodP 88 88  Y8 
+*/
+.login {
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+}
+
+
+
+/*
+    888888  dP"Yb  88""Yb 8b    d8     888888 88     888888 8b    d8 888888 88b 88 888888 .dP"Y8 
+    88__   dP   Yb 88__dP 88b  d88     88__   88     88__   88b  d88 88__   88Yb88   88   `Ybo." 
+    88""   Yb   dP 88"Yb  88YbdP88     88""   88  .o 88""   88YbdP88 88""   88 Y88   88   o.`Y8b 
+    88      YbodP  88  Yb 88 YY 88     888888 88ood8 888888 88 YY 88 888888 88  Y8   88   8bodP' 
+*/
+.form {
+    &__group {
+        border: none;
+    }
+    &__line {
+    margin-bottom: 0.5rem;
+        min-height: 2.5em;
+    }
+    &__label {
+        display: inline-block;
+        width: 10rem;
+    }
+    &__input {
+        width: 11rem;
+        padding: 0 0.5em;
+        line-height: 1.8em;
+        font-size: 1rem;
+    }
+    &__btn {
+        min-width: 8rem;
+        padding: 0 0.5rem;
+        line-height: 2em;
+        font-size: 1rem;
+    }
+}
+.message {
+    &--legend {
+        font-size: 0.875rem;
+    }
+    &--error {
+        border: 1px solid #c66;
+        border-radius: 0.5rem;
+        background: #fefecc;
+        padding: 0.5rem 1rem;
+        color: #c66;
+    }
+}
+
+.btn {
+    border: 1px solid #333;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    }
+    .fa {
+        margin-right: 0.5rem;
+    }
+    &--close {
+        color: #f33;
+    }
+}

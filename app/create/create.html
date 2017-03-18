@@ -1,0 +1,19 @@
+<h1 class="title title--1">Account creation</h1>
+<form class="form form--create" data-ng-submit="createSubmit()">
+    <fieldset class="form__group">
+        <p class="message message--error" data-ng-show="error">{{error}}</p>
+        <div class="form__line">
+            <label class="form__label" for="username">Your name*</label> <input type="text" name="username" id="username" required="required" class="form__input" data-ng-model="username" />
+        </div>
+        <div class="form__line">
+            <label class="form__label" for="email">Login/e-mail*</label> <input type="email" name="email" id="email" required="required" class="form__input form__input--email" data-ng-model="email" />
+        </div>
+        <div class="form__line">
+            <label class="form__label" for="password">Password*</label> <input type="password" name="password" id="password" required="required" class="form__input form__input--password" data-ng-model="password" />
+        </div>
+        <div class="form__line">
+            <label class="form__label" for="submit"></label> <button type="submit" id="submit" class="form__input form__btn form__btn--submit">Create account</button><br />
+        </div>
+        <p class="message message--legend">* All fields are mandatory.</p>
+    </fieldset>
+</form>
