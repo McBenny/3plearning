@@ -65,5 +65,7 @@ The accounts created are stored in the localStorage of the browser. An authentic
 
 ## What it doesn't do
 
-The accounts being stored on the machine, there is no link with any server. The password are not encrypted in any way. There is no specifi test on the validity of the data apart from what the browser can do (type=email, required).  
-I did not implement any kind of design apart from a simple presentation and the minimum requirements for understanding the interface (titles or messages) but the classes respect the BEM methodology and the styles are defined in SASS.
+- The accounts being stored on the machine, there is no link with any server.
+- The passwords are not encrypted in any way.
+- There is no specific test on the validity of the data apart from what the browser can do (type=email, required).
+- I did not implement any kind of design apart from a simple presentation and the minimum requirements for understanding the interface (titles or messages) but the classes respect the BEM methodology and the styles are defined in SASS.
